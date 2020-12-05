@@ -1,0 +1,17 @@
+.navbar-main {
+    width: 100%;
+    /* background-color: brown; */
+    height: 20%;
+    /* position: fixed; */
+}
+
+.navbar-container {
+    padding: 1rem 1rem 1rem 3rem;
+}
+.navbar-logo {
+    height: 5rem;
+}
+.navbar-menu {
+    float: right;
+    padding: 1rem;
+}

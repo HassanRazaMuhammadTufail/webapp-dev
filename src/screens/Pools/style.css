@@ -1,0 +1,71 @@
+.pools-main {
+    /* width: 100%; */
+    height: 100%;
+    width: 75%;
+    float: right;
+}
+.pools-container {
+    height: 90%;
+    /* background-color: khaki; */
+    margin: 1rem 2rem;
+}
+.heading {
+    color: #fff;
+    margin: 0;
+}
+.pools-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #341664;
+    margin: 2rem 0rem;
+    border-radius: 0.5rem;
+}
+.pools-details:hover {
+    background-color: #341664;
+    border: 2px dashed #35f0d0;
+}
+.prize-amount {
+    /* text-decoration-color: linear-gradient(40deg,#ff9304,#ff04ea 10%,#9b4beb 20%,#0e8dd6 30%,#0bc6df 40%,#07d464 50%,#dfd105 60%,#ff04ab 78%,#8933eb 90%,#3b89ff); */
+    /* background-color: inherit; */
+    background: linear-gradient(40deg,#9b4beb 20%,#0e8dd6 30%,#0bc6df 40%,#07d464 50%,#dfd105);
+  /* -webkit-background-clip: text; */
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.pools-details p{
+    background-color: inherit;
+    color: #fff;
+}
+
+.get-ticket-button {
+    text-decoration: none !important;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    margin: .5rem 2.5rem;
+    padding: .5rem 1rem;
+    width: 50%;
+    border:none;
+    background-color: #35f0d0;
+    text-align: center;
+    border-radius: 2rem;
+    color: #2c3972;
+    display: inline-block;
+  }
+  
+  .get-ticket-button:hover {
+    color: #2c3972;
+    border:2px solid #35f0d0 ;
+  }
+
+  .view-pools-detail{
+      color: #35f0d0 !important;
+  }
+
+.last-text{
+  color : #68528d !important;
+}
